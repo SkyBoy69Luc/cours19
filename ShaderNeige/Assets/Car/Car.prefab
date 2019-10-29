@@ -52,7 +52,7 @@ GameObject:
   - component: {fileID: 4844688670757402}
   - component: {fileID: 54646451501684356}
   - component: {fileID: 114012397055800854}
-  - component: {fileID: 114863121832322346}
+  - component: {fileID: 114972212454169410}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -833,7 +833,7 @@ MonoBehaviour:
     isFront: 0
   maxWheelTurnAngle: 35
   motorStrenght: 250
---- !u!114 &114863121832322346
+--- !u!114 &114972212454169410
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -841,19 +841,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1074362243218714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 680ffc6b18d5f9642abe35d24b10f13f, type: 3}
+  m_Script: {fileID: 11500000, guid: f72745c735cacef4ab883a01e5e3e1e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _drawShader: {fileID: 4800000, guid: 847e342e3414b7944a6c304023531c98, type: 3}
+  _drawShader: {fileID: 4800000, guid: d6b404d4bfd4aeb48b86df4f0cb16542, type: 3}
   _terrain: {fileID: 0}
-  _wheel:
+  _whells:
   - {fileID: 4125257903131586}
   - {fileID: 4564948575918674}
   - {fileID: 4742961125722136}
   - {fileID: 4094952857991168}
-  _brushSize: 4
-  _brushStrength: 1
-  distance: 5
+  _brushSize: 0
+  _brushStrength: 0
+  distance: 3
 --- !u!146 &146102704223704822
 WheelCollider:
   m_ObjectHideFlags: 1
